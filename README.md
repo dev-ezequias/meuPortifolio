@@ -67,6 +67,6 @@ Cores: Utilize a paleta de cores definida (#000039, #060149, #0d025a e #FFFFFF) 
 Tipografia: Escolha fontes legíveis e que combinem com o estilo do seu portfólio.
 Responsividade: Certifique-se que o site seja responsivo, ou seja, se adapte a diferentes tamanhos de tela (celular, tablet, computador).
 
-## Link:
+## Link: https://gamma.app/docs/Desenvolvedor-Front-End-9u7u2falz0eufgc?mode=doc
 
 
