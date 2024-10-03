@@ -1,7 +1,6 @@
 # Portfólio
 ## Portfólio do Ezequias da Silva Cordeiro
 
-![eu att](https://github.com/user-attachments/assets/df91e86d-1a84-4455-9999-e83cfd6eca9a)
 
 ---
 
