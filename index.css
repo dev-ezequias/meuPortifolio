@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
     background-color: #fff;
@@ -154,11 +158,12 @@ aside{
     border: 2px solid #000;
     border-radius: 10px;
     padding: 10px;
+    background-color: #fff;
 }
 
 .div-card{
-    width: 50%;
-    height: 500px;
+    width: 350px;
+    height: 450px;
     border: 2px solid #000;
     border-radius: 10px;
     padding: 10px;
@@ -166,18 +171,82 @@ aside{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+.div-card h3{
+    border-top: 3px solid #000e91;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.div-card p{
+    margin-bottom: 0px;
+}
+
+div-card, button{
+    width: 75px 20px;
+    font-size: medium;
+    color: white;
+    background-color: #000e91;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-weight: 800;
 }
 
 .section-card{
     display: flex;
     gap: 0px 30px;
     background-color: #fff;
+    justify-content: center;
 }
 
 h2{
     display: flex;
     justify-content: center;
+}
+
+#div-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#div-contato ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#div-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-sociais ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#div-direitos{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#div-direitos ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#div-direitos p{
+    margin: 0px;
 }
 
 .arrow{
