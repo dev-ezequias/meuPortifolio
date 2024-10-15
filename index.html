@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="index.css">
 <link rel="icon" href="./assets/images/logo branco.svg" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-</style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
 <title>Meu portfólio</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
             <ul class="top-menu">
                 <li><a href="#section-sobre">SOBRE</a></li>
                 <li><a href="#section-projetos">PROJETOS</a></li>
-                <li><a href="#section-formação">FORMAÇÃO</a></li>
+                <li><a href="#section-formacao">FORMAÇÃO</a></li>
                 <li><a href="#section-habilidades">HABILIDADES</a></li>
             </ul>
             <ul class="menu-contato">
@@ -35,60 +36,74 @@
             <img class="foto-perfil" src="./assets/images/FotoEu.png" alt="Minha foto de perfil">
         </section>
         <section class="section-main-perfil">
-            <h2>{Olá, Mundo} <span>👋🏽</span></h2>
-            <h1>Seja bem-vindo(a).</h1>
-            <p>Esse é o meu portfólio.</p>
+            <h2><span class="span-chaves">{</span>Olá, Mundo <span class="span-chaves">}</span> <span>👋🏽</span></h2>
+            <h1>Seja bem-vindo(a)</h1>
+            <p>Esse é o meu portfólio</p>
             <div class="section-buttons">
-                <a type="E-mail" href="mailto:ezequias.sccontato@icloud.com" target="_blank"><button> <img src="assets/images/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="E-mail"> ENVIAR E-MAIL</button></a>
-                <a class="button-wa" href="https://wa.link/clbg2t" target="_blank"><button> <img src="assets/images/whatsapp-branco.svg" alt="WhatsApp">WHATSAPP</button></a>
-                <a href="https://w.app/devezequias" target="_blank"><button> <img src="assets/images/download_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="WhatsApp">VER CURRÍCULO</button></a>
+                <a type="E-mail" href="mailto:ezequias.sccontato@icloud.com" target="_blank"><button><i class="fa-solid fa-envelope fa-lg"></i>E-mail</button></a>
+                <a class="button-wa" href="https://wa.link/clbg2t" target="_blank"><button><i class="fa-brands fa-whatsapp fa-xl"></i>WhatsApp</button></a>
+                <a href="https://docs.google.com/document/d/1Qz4Fj9-OBCmI83fP7xmHlQISjtkbO9SSd_ZBT2GvZck/edit?usp=sharing" target="_blank"><button> <i class="fa-solid fa-circle-arrow-down fa-xl"></i>Ver currículo</button></a>
+            </div>
+            <div class="div-sociais-topo">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/dev-ezequias/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/dev-ezequias" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://x.com/quiasssc" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://discord.gg/UqAAXhMv" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+                </ul>
             </div>
         </section>
     </main>
     <aside>
-        <section id="section-sobre">
-            <h2>Sobre mim</h2>
-            <p>Sou estudante do curso técnico de Desenvolvimento de Sistemas na PROZ - Educação <br> Profissional e graduando em Análise e Desenvolvimento de Sistemas na Faculdade <br>Descomplica. Atualmente trabalho como atendente ao cliente na Localiza&Co, mas <br> minha verdadeira paixão é a programação.</p>
+        <section class="section-sections">
+            <h2 id="section-sobre">Ezequias da Silva Cordeiro</h2>
+            <h3>👨🏽‍💻 Desenvolvedor front-end</h3>
+            <p> Sou um desenvolvedor apaixonado por tecnologia, minha jornada marcada pela curiosidade e pelo desejo de aprender. Natural de Belo Horizonte, iniciei minha trajetória na programação no final de 2023 e, atualmente, me dedico aos estudos em Desenvolvimento Web. Com um perfil analítico e proativo, busco construir uma carreira sólida na área, contribuindo para o desenvolvimento de soluções inovadoras e interfaces agradáveis para experiência do usuário. Sou um profissional colaborativo e sempre disposto a aprender, com o objetivo de crescer profissionalmente e fazer a diferença no mundo da tecnologia.</p>
         </section>
-        <h2 id="section-formação">Formação Acadêmica</h2>
-        <p>Sou estudante do curso técnico de Desenvolvimento de Sistemas na PROZ - Educação <br> Profissional e graduando em Análise e Desenvolvimento de Sistemas na Faculdade <br>Descomplica. Atualmente trabalho como atendente ao cliente na Localiza&Co, mas <br> minha verdadeira paixão é a programação.</p>
-        <h2 id="section-habilidades">Habilidades</h2>
-        <ul>
-            <li><img src="./assets/images/icons8-html5.svg" alt="Html"></a></li>
-            <li><img src="./assets/images/icons8-css.svg" alt="Css"></li>
-            <li><img src="./assets/images/icons8-javascript.svg" alt="Javascript"></li>
-            <li><img width="48px" src="./assets/images/icons8-bootstrap.svg" alt="Bootstrap"></li>
-        </ul>
-    </aside>
-    <h2 id="section-projetos">Projetos</h2>
-    <section class="section-card">
-        <div class="div-card">
-            <h3>Clinica Serenidade</h3>
-            <img class="card" src="./assets/images/construção.png" alt="card">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
-            <button><a href="https://www.youtube.com/"></a>Acesse aqui</button>
-        </div>
-        <div class="div-card">
-            <h3>Barbearia</h3>
-            <img class="card" src="./assets/images/construção.png" alt="card">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
-            <button><a href="https://www.youtube.com/"></a>Acesse aqui</button>
-        </div>
-        <div class="div-card">
-            <h3>Em construção</h3>
-            <img class="card" src="./assets/images/construção.png" alt="card">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
-            <button><a href="https://www.youtube.com/"></a>Acesse aqui</button>
-        </div>
-        <div class="div-card">
-            <h3>Em construção</h3>
-            <img class="card" src="./assets/images/construção.png" alt="card">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
-            <a href="https://www.youtube.com/" target="_blank"><button>Acesse aqui</button></a>
-        </div>
-    </section>
-    <footer>
-        <div id="div-contato">
+        <section class="section-sections">
+            <h2 id="section-formacao">Minha Formação</h2>
+            <h3>📚👨🏽‍🎓 Desenvolvedor front-end</h3>
+            <p> Sou um desenvolvedor apaixonado por tecnologia, minha jornada marcada pela curiosidade e pelo desejo de aprender. Natural de Belo Horizonte, iniciei minha trajetória na programação no final de 2023 e, atualmente, me dedico aos estudos em Desenvolvimento Web. Com um perfil analítico e proativo, busco construir uma carreira sólida na área, contribuindo para o desenvolvimento de soluções inovadoras e interfaces agradáveis para experiência do usuário. Sou um profissional colaborativo e sempre disposto a aprender, com o objetivo de crescer profissionalmente e fazer a diferença no mundo da tecnologia.</p>
+        </section>
+        <section class="section-sections">
+            <h2 id="section-habilidades">Habilidades</h2>
+            <h3>👨🏽‍💻 Habilidades em que tenho conhecimento</h3>
+            <ul>
+                <li><img src="./assets/images/icons8-html5.svg" alt="Html"></a></li>
+                <li><img src="./assets/images/icons8-css.svg" alt="Css"></li>
+                <li><img src="./assets/images/icons8-javascript.svg" alt="Javascript"></li>
+                <li><img width="48px" src="./assets/images/icons8-bootstrap.svg" alt="Bootstrap"></li>
+            </ul>
+        </section>
+
+        <h2 id="section-projetos">Projetos</h2>
+        <section class="section-card">
+            <div class="div-card">
+                <h3>Clinica Serenidade</h3>
+                <img class="card" src="./assets/images/construção.png" alt="card">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
+                <button><a href="https://www.youtube.com/"></a>Acesse aqui</button>
+            </div>
+            <div class="div-card">
+                <h3>Barbearia</h3>
+                <img class="card" src="./assets/images/construção.png" alt="card">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
+                <button><a href="https://www.youtube.com/"></a>Acesse aqui</button>
+            </div>
+            <div class="div-card">
+                <h3>Em construção</h3>
+                <img class="card" src="./assets/images/construção.png" alt="card">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
+                <button><a href="https://www.youtube.com/"></a>Acesse aqui</button>
+            </div>
+            <div class="div-card">
+                <h3>Em construção</h3>
+                <img class="card" src="./assets/images/construção.png" alt="card">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quisquam quos, </p>
+                <a href="https://www.youtube.com/" target="_blank"><button>Acesse aqui</button></a>
+            </div>
+        </section>
+        <div class="section-sections" id="div-contato">
             <h3>Entre em contato</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cum dolores omnis eaque! Quasi, veniam. Ducimus tempora repudiandae dolorum, et vitae numquam omnis ullam, atque, soluta sunt provident. Autem, minima!</p>
             <ul>
@@ -96,7 +111,7 @@
                 <li><img width="48px" src="./assets/images/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="E-mail"></li>
             </ul>
         </div>
-        <div id="div-sociais">
+        <div class="section-sections" id="div-sociais">
             <h3>Redes Sociais</h3>
             <ul>
                 <li><img width="48px" src="./assets/images/icons8-instagram (2).svg" alt="Instagram"></li>
@@ -104,15 +119,29 @@
                 <li><img width="48px" src="./assets/images/icons8-linkedin (2).svg" alt="LinkedIn"></li>
             </ul>
         </div>
-        <div class="arrow">
-            <a href="#image-logo"><img src="./assets/images/arrow_upward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+        <div class="section-arrow">
+            <a class="arrow" href="#image-logo"><img src="./assets/images/arrow_upward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
         </div>
-        <div id="div-sociais">
-            <ul>
-                <li><p>© Copyright. Todos direitos reservados | 2024 </p></li>
-                <li><p>Desenvolvido por Ezequias Cordeiro</p></li>
-            </ul>
-        </div>
+    </aside>
+    <footer>
+        <section id="section-footer-cima">
+            <div id="div-endereco">
+                <h4><i>Localização</i></h4>
+                <p>Ribeirão das Neves - MG</p>
+            </div>
+            <div id="div-e-mail">
+                <h4>E-mail</h4>
+                <p>ezequias.cordeiro@icloud.com</p>
+            </div>
+        </section>
+        <section id="section-footer-cima">
+            <div id="div-copyright">
+                <p>© Copyright. Todos direitos reservados | 2024 </p></li>
+            </div>
+            <div id="div-ezequias">
+                <p>Desenvolvido por Ezequias Cordeiro</p></li>
+            </div>
+        </section>
     </footer>
 <script type="text/javascript" src="index.js"></script>
 </body>
