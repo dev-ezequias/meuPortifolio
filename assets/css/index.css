@@ -182,15 +182,17 @@ main{
 
 .section-buttons button{
     font-family: "Inter", Helvetica, sans-serif;
-    width: 200px;
+    width: 150px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: .5px solid #f1f1f1;
     color: #000000;
+    font-weight: 700;
     border-radius: 5px;
     background-color: #c9c9c9eb;
+    cursor: pointer;
 }
 
 .section-buttons button:hover{
@@ -431,15 +433,18 @@ aside ul{
 
 .formação-buttons button{
     font-family: "Inter", Helvetica, sans-serif;
-    width: 200px;
+    width: auto;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: .5px solid #f1f1f1;
+    padding-right: 10px;
     color: #000000;
+    font-weight: 700;
     border-radius: 5px;
     background-color: #c9c9c9eb;
+    cursor: pointer;
 }
 
 .formação-buttons button:hover{
@@ -517,7 +522,11 @@ aside ul{
     border: .5px solid transparent;
     border-radius: 5px;
     background-color:#f1f1f1;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.section-habilidades li img{
+    width: 48px;
 }
 
 .section-habilidades p{
@@ -537,6 +546,35 @@ aside ul{
 
 #ul-softskills li p{
     text-transform: uppercase;
+}
+
+#ul-softskills li:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+#ul-utilits li:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+#ul-langs li:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.div-todos-cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div-h2-projetos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 #section-projetos{
@@ -628,10 +666,9 @@ aside ul{
 #leia-mais{
     border: none;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 10px;
     margin-top: 15px;
-    background-color: #000000eb;
-    color: #f1f1f1;
+    color: rgb(0, 17, 255);
     font-weight: bold;
     cursor: pointer;
     font-size: 16px;
@@ -640,7 +677,7 @@ aside ul{
 
 #leia-mais:hover{
     background-color: transparent;
-    color: #000;
+    color: rgb(0, 0, 0);
     transition: all 0.2s ease-in-out;
 }
 
@@ -653,12 +690,21 @@ aside ul{
 }
 
 #acesse-aqui{
-    background-color: #000;
-    color: #f1f1f1;
+    
+    color: #000000;
     padding: 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+#acesse-aqui:hover{
+    text-decoration:underline;
+    color: rgb(0, 17, 255);
+    transition: all .3s;
 }
 
 #div-contato{

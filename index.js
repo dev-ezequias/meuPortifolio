@@ -1,12 +1,12 @@
-let button = document.getElementById("leia-mais");
+let buttons = document.querySelectorAll("#leia-mais");
 
-button.addEventListener("click", function(){
-    let card = document.querySelector(".section-card");
-    card.classList.toggle("active");
-
-    if (card.classList.contains("active")){
-        return button.textContent = "Ler menos";
-    }
-
-    button.textContent = "Leia mais";
+buttons.forEach(button => {
+    button.addEventListener("click", function(){
+        let card = this.closest(".section-card");
+        card.classList.toggle("active");
+        if (card.classList.contains("active")){
+            return this.textContent = "Ler menos";
+        }
+        this.textContent = "Leia mais";
+    });
 });
